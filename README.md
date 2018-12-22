@@ -286,7 +286,7 @@ The output of this method was then assigned to the variable *df*. This is the st
 # Built in Python Functions
 
 We also used two built in python functions:  
-    * len() #Returns the lenght of an object
+    * len() #Returns the length of an object
     * print() #Prints stuff!
 In general, **python has reserved keywords** for built in functions like this. 
 **Be sure to not name your variables any of these!**
@@ -309,7 +309,7 @@ As you can see, our variable **df** is a DataFrame object (which is part of the 
 * df.info() 
     * Returns column names and details about each column
 * df.columns 
-    * Return column names. Note that there is no parentheses for this. This is becuase this is an attribute as opposed to a method
+    * Return column names. Note that there is no parentheses for this. This is because this is an attribute as opposed to a method
 
 
 ```python
@@ -332,9 +332,9 @@ or
 
 ```df.col_name```
 
-First note that in `df['col_name']` we need 'quotations' around the column name. The quotations denote the column name is a **string**, python's built in variable type for storing text. This can alternatively be replaced with double quotes `df["col_name"]`. In general, anything in quotations is a string in python code. Occassionally, with very ill formatted column names with quotations in the names themselves, you may even need to wrap a name in triple quotes `df["""col_name"""]` . This will rarely happen in this particular context, but is also the general pattern for dealing with messy strings.   
+First note that in `df['col_name']` we need 'quotations' around the column name. The quotations denote the column name is a **string**, python's built in variable type for storing text. This can alternatively be replaced with double quotes `df["col_name"]`. In general, anything in quotations is a string in python code. Occasionally, with very ill formatted column names with quotations in the names themselves, you may even need to wrap a name in triple quotes `df["""col_name"""]` . This will rarely happen in this particular context, but is also the general pattern for dealing with messy strings.   
 
-Note that the second method, `df.col_name`, will only work if there are no spaces within the name of the column. Similarly to tab completion with the command line, this is a primary reason why programers use dashes (-) and underscores (_) in lieu of whitespace in their variable and file names. Also note that no quotations are used when using this format. (The column names have been stored as attributes to the DataFrame object!)
+Note that the second method, `df.col_name`, will only work if there are no spaces within the name of the column. Similarly to tab completion with the command line, this is a primary reason why programmers use dashes (-) and underscores (_) in lieu of whitespace in their variable and file names. Also note that no quotations are used when using this format. (The column names have been stored as attributes to the DataFrame object!)
 
 
 ```python
