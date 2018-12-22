@@ -1,7 +1,7 @@
 
 ## Introduction
 
-In this lab, you'll get to do your first real data science project! You'll use Jupyter Notebook to import pre-written libraries, you'll import data into your notebook from a Comma Seperated Values file (a .csv file) and you'll even get to create some plots!
+In this lab, you'll get to do your first real data science project! You'll use Jupyter Notebook to import pre-written libraries, you'll import data into your notebook from a Comma Separated Values file (a .csv file) and you'll even get to create some plots!
 
 Don't worry if it feels like a lot or you get confused on this lab. Our goal here is just to give you a taste of what you'll be able to do as a data scientist, and after this lab, we'll go back and re-introduce all of the concepts that we skimmed over this time through, so by the end of the section you should have a much stronger understanding of this - even if you have no previous experience of programming.
 
@@ -44,7 +44,7 @@ You may also notice that other cell blocks, such as this one, do not have the **
 
 You should also start to notice that when you are in a cell writing code (or notes), the cell is highlighted in **green** meaning you are in **edit mode**. 
 
-Alternatively, if you **press esc**, the cursor will be in **blue** inidicating that you are in **command mode**.
+Alternatively, if you **press esc**, the cursor will be in **blue** indicating that you are in **command mode**.
 
 ### Edit Mode
 Edit mode is the standard mode for editing cells, whether its writing code or notes.
@@ -220,7 +220,7 @@ df.head() #Uses a built in method common to all Pandas Dataframes
 
 Note the green text following the **#**.  
 Anything following a **#** in python is a comment and will not actually execute.  
-This is a useful feature for annotating your code with notes for yourself and other later so that your code is easy to read.
+This is a useful feature for annotating your code with notes for yourself and others later so that your code is easy to read.
 
 # Accessing Methods from Packages and Objects
 
@@ -230,7 +230,7 @@ When we loaded in packages on our first cell block (import pandas as pd), we loa
 
 We demonstrated this when we used the **pd.read_csv()** method above.  
 
-This also demonstrates the **dot notation** in python, which is how we access built in methods or attriubtes of a given object. Similar to what we saw with bash in the command line, we can also use **tab completion** to preview methods available in packages or other objects.  
+This also demonstrates the **dot notation** in python, which is how we access built in methods or attributes of a given object. Similar to what we saw with bash in the command line, we can also use **tab completion** to preview methods available in packages or other objects.  
 
 ### Try this out yourself
 
@@ -281,7 +281,7 @@ As we saw, we used the built in *read_csv* method from the *pandas* package whic
 
 The output of this method was then assigned to the variable *df*. This is the standard syntax for declaring any variable. You do not have to specify variable types, as in many other programming languages. Simply:  
 
-`variable_name = what_to_stor_in_the_variable`
+`variable_name = what_to_store_in_the_variable`
 
 # Built in Python Functions
 
